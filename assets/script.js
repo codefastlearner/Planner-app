@@ -6,4 +6,8 @@ $(".saveBtn").on("click", saveEvent);
 function saveEvent() {
     let event = $(this).siblings(".description").val();
     console.log("event= ", event);
+    let eventTime = $(this).parent().attr("id");
+    console.log("eventTime= ", eventTime);
+    localStorage.setItem(eventTime, event);
+
 }
