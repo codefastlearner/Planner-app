@@ -27,3 +27,29 @@ function restoreEventsFromLocalStorage() {
 }
     
 restoreEventsFromLocalStorage();
+
+function colorRows() {
+    let currentHour = moment().format("H");
+    console.log("currentHour = ", currentHour);
+    console.log(currentHour);
+console.log(typeof(currentHour))
+    $(".time-block").each(function(){
+        let eventHour = ($(this).attr("id"));
+        console.log("eventHour = ", eventHour);
+        console.log(typeof(eventHour));
+        if(eventHour < currentHour) {
+            $(this).addClass("past");
+        } else if (eventHour === currentHour){
+            $(this).removeClass("past");
+            $(this).addClass("present"); 
+        } else {
+            $(this).removeClass("past");
+            $(this).addClass("future"); 
+            $(this).removeClass("present");
+        }
+    })
+    
+}
+
+colorRows();
+
