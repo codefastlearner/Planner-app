@@ -19,9 +19,9 @@ N/A
 ## Usage
 
 The application will allow you to create your schedule during business hours, save it and retrieve it late.
-![alt text](assets/Images/Screenshot%202023-01-30%20at%2013.11.16.png);
-![alt text](assets/Images/Screenshot%202023-01-30%20at%2013.12.10.png);
-![alt text](assets/Images/Screenshot%202023-01-30%20at%2013.12.22.png);
+![Html code block ](./assets/images/Screenshot%202023-01-30%20at%2013.11.16.png);
+![Js functionality ](./assets/images/Screenshot%202023-01-30%20at%2013.12.10.png);
+![Jquery ](./assets/images/Screenshot%202023-01-30%20at%2013.12.22.png);
 
 ## Credits
 
