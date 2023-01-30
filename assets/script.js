@@ -11,3 +11,9 @@ function saveEvent() {
     localStorage.setItem(eventTime, event);
 
 }
+
+function restoreEventsFromLocalStorage() {
+    $("#9 .description").val(localStorage.getItem("9"));
+}
+    
+restoreEventsFromLocalStorage();
